@@ -12,6 +12,12 @@ Checked 2026-10-10.
 - OpenAI plugins and skills — https://developers.openai.com/plugins/build/plugins · https://learn.chatgpt.com/docs/build-skills
 - Agensi — https://www.agensi.io/ · SkillHQ — https://skillhq.dev/ · MCP Market — https://mcpmarket.com/sell
 
+## Seen first-hand while publishing
+
+- ClawHub login is device-code only; the browser-callback flow shows "CLI login has moved" (2026-10-10).
+- `claude plugin validate --strict` is rejected as an unknown option by Claude Code 2.1.132.
+- The skills CLI 1.7.2 needs Node 22.20 or newer.
+
 ## From search results or secondary guides only
 
 - OpenAI submission prerequisites (identity verification, `api.apps.write`); the "Submit plugins" page returned 404.

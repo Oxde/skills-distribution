@@ -40,13 +40,15 @@ A real registry with accounts and versioned uploads.
 
 ```bash
 npm i -g clawhub
-clawhub login          # GitHub sign-in; the account must be old enough to pass the upload gate
+clawhub login          # device-code login: prints a code and a URL to approve in the browser
 clawhub whoami
 clawhub skill publish ./skills/my-skill \
   --slug my-skill --name "My Skill" --version 1.0.0 \
   --changelog "First release" --tags latest
 ```
 
+- **Login is device-code only.** The CLI prints a short code and a URL; the user opens the URL, signs in with GitHub and enters the code. The old browser-callback login was removed because it could hand API tokens to loopback redirects. If the browser shows "CLI login has moved", the first attempt used the old flow: update the CLI (`npm i -g clawhub@latest`) and run `clawhub login` again. The login is the user's step; wait for `clawhub whoami` to show their handle before publishing.
+- The GitHub account must be old enough to pass ClawHub's upload gate.
 - Older guides write `clawhub publish`; the current docs use `clawhub skill publish <path>`. Run `clawhub --help` to see which the installed version expects.
 - Version must be semver. Patch for wording fixes, minor for content improvements, major for workflow rewrites.
 - **Everything on ClawHub is MIT-0.** Confirm the user accepts that before the first publish.

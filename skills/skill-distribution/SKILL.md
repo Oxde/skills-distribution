@@ -3,7 +3,7 @@ name: skill-distribution
 description: Publish and distribute an agent skill (SKILL.md) so people can find and install it — skills.sh, ClawHub, agentskill.sh, GitHub, the Hermes hub, Claude Code plugin marketplaces and Anthropic's directory, the ChatGPT/Codex plugin directory, Gemini CLI extensions, and paid marketplaces. Use whenever the user has written a skill and asks how to share, publish, upload, list, submit, release, sell, or get installs for it, asks where skills are discovered, asks about the rules or format a registry requires, or wants to turn a skill into a plugin — even if they only name one marketplace.
 license: MIT-0
 metadata:
-  version: "0.1.0"
+  version: "0.1.1"
   verified: "2026-10-10"
 ---
 
