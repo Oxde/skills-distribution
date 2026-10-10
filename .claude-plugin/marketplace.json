@@ -1,0 +1,14 @@
+{
+  "name": "oxde",
+  "description": "Agent skills by Oxde",
+  "owner": {
+    "name": "Oxde"
+  },
+  "plugins": [
+    {
+      "name": "skill-distribution",
+      "source": "./",
+      "description": "Publish and distribute agent skills across registries, plugin directories and paid marketplaces"
+    }
+  ]
+}

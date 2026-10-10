@@ -1,0 +1,9 @@
+{
+  "name": "skill-distribution",
+  "displayName": "Skill Distribution",
+  "description": "Publish and distribute agent skills across skills.sh, ClawHub, agentskill.sh, plugin directories and paid marketplaces",
+  "author": { "name": "Oxde" },
+  "homepage": "https://github.com/Oxde/skills-distribution",
+  "repository": "https://github.com/Oxde/skills-distribution",
+  "license": "MIT-0"
+}

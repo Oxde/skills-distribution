@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "skill-distribution",
+  "version": "0.1.0",
+  "description": "Publish and distribute agent skills across skills.sh, ClawHub, agentskill.sh, plugin directories and paid marketplaces",
+  "extensions": {
+    "com.openai": { "interface": { "displayName": "Skill Distribution", "category": "Developer Tools" } }
+  }
+}
